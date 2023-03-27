@@ -1,0 +1,66 @@
+@import url(/assets/css/colors.css);
+
+.welcome{
+	background-image: url(/assets/images/index/start-screen-gradient-background.png);
+    background-position: 0 -90px;
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+	font-family: 'Georgia';
+	font-style: normal;
+}
+
+.welcome__wrapper {
+	display: flex;
+	flex-direction: row;
+	padding: 90px 40px 0 40px;
+}
+	.welcome__content{
+		margin-top: 163px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 42px;
+	}
+		.welcome__heading{
+			max-width: 310px;
+
+			
+			color: var(--white);
+
+			font-size: 44px;
+			line-height: 130%;
+			font-weight: normal;
+		}
+		.welcome__subheading{
+			max-width: 460px;
+			color: var(--gray);
+
+			font-family: 'Arial';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 160%;
+		}
+		.welcome__button{
+			background: var(--beige);
+
+			width: 207px;
+			height: 52px;
+
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+			border-radius: 100px;
+		}
+		.welcome__button a{
+			font-family: 'Georgia';
+			font-weight: 400;
+			font-size: 17px;
+			line-height: 130%;
+			    letter-spacing: 0.06em;
+		}
+	.welcome__image{
+		margin-left: 42px;
+	}
