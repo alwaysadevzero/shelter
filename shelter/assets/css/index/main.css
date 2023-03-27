@@ -61,7 +61,7 @@
 			font-weight: 400;
 			font-size: 17px;
 			line-height: 130%;
-			    letter-spacing: 0.06em;
+			letter-spacing: 0.06em;
 		}
 	.welcome__image{
 		overflow: hidden;
@@ -89,7 +89,9 @@
 	}
 		.about__header{
 			max-width: 370px;
+
 			color: var(--heading-gray);
+
 			font-weight: 400;
 			font-size: 35px;
 			line-height: 130%;
