@@ -13,6 +13,7 @@
 .welcome__wrapper {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 	padding: 90px 40px 0 40px;
 }
 	.welcome__content{
@@ -65,3 +66,40 @@
 	.welcome__image{
 		overflow: hidden;
 	}
+
+
+.about {
+	background-color: var(--white);
+
+}
+.about__wrapper{
+	margin: 80px 215px 100px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+	.about__content{
+		margin-top: 14px;
+		max-width: 430px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+		.about__header{
+			max-width: 370px;
+			color: var(--heading-gray);
+			font-weight: 400;
+			font-size: 35px;
+			line-height: 130%;
+			font-family: 'Georgia';
+			letter-spacing: 0.06em;
+		}
+		.about__text{
+			font-family: 'Arial';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 160%;
+		}
