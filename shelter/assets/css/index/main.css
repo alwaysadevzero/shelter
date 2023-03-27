@@ -1,6 +1,6 @@
 @import url(/assets/css/colors.css);
 
-.welcome{
+.not-only{
 	background-image: url(/assets/images/index/start-screen-gradient-background.png);
     background-position: 0 -90px;
 	background-repeat: no-repeat;
@@ -10,13 +10,13 @@
 	font-style: normal;
 }
 
-.welcome__wrapper {
+.not-only__wrapper {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 90px 40px 0 40px;
 }
-	.welcome__content{
+	.not-only__content{
 		margin-top: 163px;
 		max-width: 460px;
 
@@ -24,7 +24,7 @@
 		flex-direction: column;
 		gap: 42px;
 	}
-		.welcome__heading{
+		.not-only__heading{
 			max-width: 310px;
 
 			
@@ -34,7 +34,7 @@
 			line-height: 130%;
 			font-weight: normal;
 		}
-		.welcome__subheading{
+		.not-only__subheading{
 			max-width: 460px;
 			color: var(--gray);
 
@@ -44,7 +44,7 @@
 			font-size: 15px;
 			line-height: 160%;
 		}
-		.welcome__button{
+		.not-only__button{
 			background: var(--beige);
 
 			width: 207px;
@@ -56,14 +56,14 @@
 
 			border-radius: 100px;
 		}
-		.welcome__button a{
+		.not-only__button a{
 			font-family: 'Georgia';
 			font-weight: 400;
 			font-size: 17px;
 			line-height: 130%;
 			letter-spacing: 0.06em;
 		}
-	.welcome__image{
+	.not-only__image{
 		overflow: hidden;
 	}
 
@@ -174,13 +174,10 @@
 				font-weight: 400;
 				font-size: 17px;
 				line-height: 130%;
-				/* identical to box height, or 22px */
 
 				letter-spacing: 0.06em;
 
-				/* color-dark-3xl */
-
-				color: #292929;
+				color: var(--dark-gray)
 			}
 		.pets__arrow {
 			height: 52px;
@@ -223,11 +220,172 @@
 			font-weight: 400;
 			font-size: 17px;
 			line-height: 130%;
-			/* identical to box height, or 22px */
-
 			letter-spacing: 0.06em;
 
-			/* color-dark-3xl */
-
-			color: #292929;
+			color: var(--dark-gray);
 		}
+
+.help {
+	background-color: var(--white);
+}
+.help__wrapper{
+	margin: 80px 120px 100px;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+	.help__header{
+		font-family: 'Georgia';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 35px;
+		line-height: 130%;
+
+		letter-spacing: 0.06em;
+	}
+	.help__list{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 55px 120px;
+		align-items: center;
+		justify-content: center;
+	}
+		.help__item{
+			display: flex;
+			gap: 30px;
+			flex-direction: column;
+			flex-wrap: nowrap;
+    		align-items: center;
+
+			height: 113px;
+		}
+		.help__item img{
+			height: 60px;
+		}
+
+		.help__item span {
+			font-family: 'Georgia';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 115%;
+			letter-spacing: 0.06em;
+
+			color: var(--heading-gray);
+		}
+
+
+.donation{
+	background-color: var(--light-gray);
+}
+.donation__wrapper{
+	padding:  80px 182px 100px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.donation__wrapper > img {
+    object-fit: contain;
+}
+	.donation__content{
+		max-width: 380px;
+
+		display: flex;
+		flex-direction: column;
+
+		gap: 20px;
+
+		color: var(--heading-gray);
+	}
+		.donation__header{
+			font-family: 'Georgia';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 35px;
+			line-height: 130%;
+
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.06em;
+		}
+		.donation__text{
+			font-family: 'Georgia';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 110%;
+
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.06em;
+		}
+		.donation__card{
+			display: flex;
+			flex-direction: row;
+			gap: 15px;
+			align-items: center;
+			justify-content: center;
+
+			width: 349px;
+			height: 43px;
+			left: 0px;
+			top: 147px;
+
+			/* color-primary */
+
+			background: var(--beige);
+			border-radius: 9px;
+		}
+		.donation__card{
+			font-family: 'Georgia';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 20px;
+			line-height: 115%;
+
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.06em;
+		}
+		.donation__descritpion{
+			font-family: 'Arial';
+			font-style: italic;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 18px;
+
+			color: var(--transparent-gray);
+		}
+
+
+.footer{
+	background: url(/assets/images/footer-gradient-background.png);
+}
+.footer__wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: 40px 40px 0;
+}
+	.footer-header{
+		/* h3 */
+
+		font-family: 'Georgia';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 35px;
+		line-height: 130%;
+		/* or 45px */
+
+		letter-spacing: 0.06em;
+
+		color: var(--white);
+
+		max-width: 275px;
+	}

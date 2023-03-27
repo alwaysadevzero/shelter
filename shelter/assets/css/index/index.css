@@ -1,7 +1,11 @@
 @import url(./header.css);
 @import url(./main.css);
-
+ 
 .page {
 	max-width: 1280px;
 	margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth;
 }
