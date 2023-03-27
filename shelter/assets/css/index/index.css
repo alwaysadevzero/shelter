@@ -1,5 +1,7 @@
 @import url(./header.css);
 @import url(./main.css);
+@import url(/assets/css/footer.css);
+
  
 .page {
 	max-width: 1280px;

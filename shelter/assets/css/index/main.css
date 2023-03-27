@@ -361,31 +361,3 @@
 
 			color: var(--transparent-gray);
 		}
-
-
-.footer{
-	background: url(/assets/images/footer-gradient-background.png);
-}
-.footer__wrapper {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-
-	padding: 40px 40px 0;
-}
-	.footer-header{
-		/* h3 */
-
-		font-family: 'Georgia';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 35px;
-		line-height: 130%;
-		/* or 45px */
-
-		letter-spacing: 0.06em;
-
-		color: var(--white);
-
-		max-width: 275px;
-	}
