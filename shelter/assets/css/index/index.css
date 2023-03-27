@@ -1,0 +1,7 @@
+@import url(./header.css);
+@import url(./main.css);
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}

@@ -1,0 +1,61 @@
+/* @import url(/assets/css/fonts.css); */
+@import url(/assets/css/colors.css);
+
+.header{
+	background: url(/assets/images/index/start-screen-gradient-background.png);
+    background-size: cover;
+
+	font-family: 'Arial';
+	font-style: normal;
+}
+
+.header__wrapper{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: space-between;
+	padding: 30px 40px 0 40px;
+
+}
+
+.header__logo {
+	max-width: 186px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+	.header__title {
+		color: var(--beige);
+		font-family: "Georgia";
+		font-size: 32px;
+		line-height: 110%;
+		letter-spacing: 0.06em;
+	}
+	.header__subtitle{
+		color: var(--white);
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 15px;
+		font-family: 'Arial';
+		letter-spacing: 0.1em;
+	}
+
+.header__navbar{
+	color: var(--gray);
+	font-style: normal;
+	font-size: 15px;
+	line-height: 160%;
+}
+	.navbar__list{
+		display: flex;
+		flex-direction: row;
+		gap: 35px;
+	}
+		.navbar__item{
+		font-style: normal;
+		font-weight: 400;
+		}
+		.navbar__item.active{
+			color: var(--light);
+			border-bottom: 3px solid var(--beige);
+		}
