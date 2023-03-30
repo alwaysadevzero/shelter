@@ -1,0 +1,28 @@
+@import url(/assets/css/index/header.css);
+
+
+.header{
+	background: var(--white);
+}
+
+.header__wrapper{
+	padding: 30px 40px 30px 40px;
+
+}
+	.header__title {
+		color: var(--heading-gray);
+	}
+	.header__subtitle{
+		color: var(--dark-gray);
+	}
+
+.header__navbar{
+	color: var(--heading-gray);
+}		
+		.navbar__item.active{
+			color: var(--dark-gray);
+		}
+		.navbar__item:hover:not(.active){
+			color: var(--dark-gray);
+			transform: scale(1.1);
+		}

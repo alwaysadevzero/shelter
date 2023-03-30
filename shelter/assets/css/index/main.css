@@ -1,13 +1,9 @@
-@import url(/assets/css/colors.css);
-
 .not-only{
 	background-image: url(/assets/images/index/start-screen-gradient-background.png);
     background-position: 0 -90px;
 	background-repeat: no-repeat;
     background-size: cover;
-	
-	font-family: 'Georgia';
-	font-style: normal;
+
 }
 
 .not-only__wrapper {
@@ -37,12 +33,6 @@
 		.not-only__subheading{
 			max-width: 460px;
 			color: var(--gray);
-
-			font-family: 'Arial';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 15px;
-			line-height: 160%;
 		}
 		.not-only__button{
 			background: var(--beige);
@@ -55,13 +45,11 @@
 			justify-content: space-around;
 
 			border-radius: 100px;
+
+			transition: all 0.3s ease;
 		}
-		.not-only__button a{
-			font-family: 'Georgia';
-			font-weight: 400;
-			font-size: 17px;
-			line-height: 130%;
-			letter-spacing: 0.06em;
+		.not-only__button:hover {
+			background: var(--active-beige);
 		}
 	.not-only__image{
 		overflow: hidden;
@@ -90,24 +78,10 @@
 			max-width: 370px;
 
 			color: var(--heading-gray);
-
-			font-weight: 400;
-			font-size: 35px;
-			line-height: 130%;
-			font-family: 'Georgia';
-			letter-spacing: 0.06em;
-		}
-		.about__text{
-			font-family: 'Arial';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 15px;
-			line-height: 160%;
 		}
 
 .pets{
 	background: var(--light-gray);
-	font-family: 'Georgia';
 }
 .pets__wrapper {
 	padding: 80px 40px 100px;
@@ -123,12 +97,6 @@
 		max-width: 400px;
 
 		color: var(--heading-gray);
-
-		font-style: normal;
-		font-weight: 400;
-		font-size: 35px;
-		line-height: 130%;
-		letter-spacing: 0.06em;
 
 		display: flex;
 		align-items: center;
@@ -149,12 +117,12 @@
 			flex-direction: column;
 			align-items: center;
 			gap: 30px;
+
+			transition: all 0.3s ease;
 		}
-			.pets__name{
-				font-size: 20px;
-				line-height: 23px;
-				letter-spacing: 0.06em;
-			}
+		.pets__card:hover{
+			background-color: var(--white);
+		}
 			.pets__button-card{
 				width: 187px;
 				height: 52px;
@@ -166,17 +134,14 @@
 
 				align-items: center;
 				justify-content: center;
+
+				transition: all 0.3s ease;
 			}
+			.pets__button-card:hover{
+				background-color: var(--active-beige);
+			}
+
 			.pets__button-card a{
-				
-				font-family: 'Georgia';
-				font-style: normal;
-				font-weight: 400;
-				font-size: 17px;
-				line-height: 130%;
-
-				letter-spacing: 0.06em;
-
 				color: var(--dark-gray)
 			}
 		.pets__arrow {
@@ -186,19 +151,23 @@
 			border: 2px solid var(--beige);
 			border-radius: 100%;
 
-			background-repeat: no-repeat;
-			background-position: center center;
-
 			position: absolute;
 
+			cursor: pointer;
+
+			transition: all 0.3s ease;
+
 			top: 48%;
+
+			font-size: 1.1em;
+		}
+		.pets__arrow:hover{
+			background: var(--active-beige);
 		}
 		.arrow-left {
-			background-image: url(/assets/icons/Arrow-left.svg);
 			left: 40px;
 		}
 		.arrow-right {
-			background-image: url(/assets/icons/Arrow-right.svg);
 			right: 40px;
 		}
 
@@ -213,15 +182,13 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
+
+			transition: all 0.3s ease;
+		}
+		.pets__button:hover{
+			background: var(--active-beige);
 		}
 		.pets__button a{
-			font-family: 'Georgia';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 17px;
-			line-height: 130%;
-			letter-spacing: 0.06em;
-
 			color: var(--dark-gray);
 		}
 
@@ -237,15 +204,6 @@
 	flex-direction: column;
 	gap: 60px;
 }
-	.help__header{
-		font-family: 'Georgia';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 35px;
-		line-height: 130%;
-
-		letter-spacing: 0.06em;
-	}
 	.help__list{
 		display: flex;
 		flex-direction: row;
@@ -262,19 +220,18 @@
     		align-items: center;
 
 			height: 113px;
+
+			transition: all 0.3s ease;
+		}
+		.help__item:hover{
+			transform: scale(1.2);
+
 		}
 		.help__item img{
 			height: 60px;
 		}
 
 		.help__item span {
-			font-family: 'Georgia';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 20px;
-			line-height: 115%;
-			letter-spacing: 0.06em;
-
 			color: var(--heading-gray);
 		}
 
@@ -302,28 +259,6 @@
 
 		color: var(--heading-gray);
 	}
-		.donation__header{
-			font-family: 'Georgia';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 35px;
-			line-height: 130%;
-
-			display: flex;
-			align-items: center;
-			letter-spacing: 0.06em;
-		}
-		.donation__text{
-			font-family: 'Georgia';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 15px;
-			line-height: 110%;
-
-			display: flex;
-			align-items: center;
-			letter-spacing: 0.06em;
-		}
 		.donation__card{
 			display: flex;
 			flex-direction: row;
@@ -336,28 +271,16 @@
 			left: 0px;
 			top: 147px;
 
-			/* color-primary */
-
 			background: var(--beige);
 			border-radius: 9px;
-		}
-		.donation__card{
-			font-family: 'Georgia';
-			font-style: normal;
-			font-weight: 400;
-			font-size: 20px;
-			line-height: 115%;
 
-			display: flex;
-			align-items: center;
-			letter-spacing: 0.06em;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		.donation__card:hover{
+			background: var(--active-beige);
+			transform: scale(1.1);
 		}
 		.donation__descritpion{
-			font-family: 'Arial';
-			font-style: italic;
-			font-weight: 400;
-			font-size: 12px;
-			line-height: 18px;
-
 			color: var(--transparent-gray);
 		}

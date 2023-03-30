@@ -31,3 +31,115 @@
     font-style: normal;
     src: url(/assets/fonts/arial/arial-regular.ttf);
 }
+
+.title {
+	font-family: "Georgia";
+	font-size: 32px;
+	line-height: 110%;
+	letter-spacing: 0.06em;
+}
+
+.subtitle {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 15px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.1em;
+}
+
+
+
+.text-arial {
+	font-family: 'Arial';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 160%;
+}
+
+.text-georgia {
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	line-height: 160%;
+}
+
+.text-h1 {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-size: 44px;
+	line-height: 130%;
+}
+.text-h2 {
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 130%;
+	font-family: 'Georgia';
+	letter-spacing: 0.06em;
+}
+
+.text-center {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+
+.text-georgia_button{
+	font-family: 'Georgia';
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 130%;
+	letter-spacing: 0.06em;
+}
+
+.text-card {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+.text-toys {
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 115%;
+
+	letter-spacing: 0.06em;
+}
+
+.text-dontation{
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.06em;
+}
+
+.text-transparent {
+	font-family: 'Arial';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	/* or 150% */
+
+	display: flex;
+	align-items: center;
+}

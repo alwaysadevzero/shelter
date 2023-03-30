@@ -7,25 +7,52 @@
 .footer__wrapper {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+
+	gap:160px;
 
 	padding: 40px 40px 0;
 }
 	.footer__contcats-header, .footer__address-header{
 		margin-top: 15px;
-		/* h3 */
-
-		font-family: 'Georgia';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 35px;
-		line-height: 130%;
-		/* or 45px */
-
-		letter-spacing: 0.06em;
 
 		color: var(--white);
 	}
-	.footer__address-header{
-		margin-left: 5px;
-	}
+		.footer__contcats{	
+			display: flex;
+			flex-direction: column;
+			gap: 43px;
+			width: 278px;
+		}
+			.footer__contcats-header{
+					width: 280px;
+			}
+					.footer__email a, .footer__number a{
+						display: flex;
+						flex-direction: row;
+						gap: 20px;
+					}
+		.footer__address{
+			width: 302px;
+			display: flex;
+			flex-direction: column;
+			gap:34px;
+		}
+			.footer__address-list{
+				display: flex;
+				flex-direction: column;
+				gap: 35px;
+			}
+				.footer__item a{
+					display: flex;
+					gap:20px
+				}
+
+
+.footer__text {
+	color: var(--beige);
+
+	transition: all 0.3s ease;
+}
+.footer__text:hover{
+	transform: scale(1.1);
+}

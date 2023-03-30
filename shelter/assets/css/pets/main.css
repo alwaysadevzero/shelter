@@ -1,0 +1,107 @@
+
+.cards{
+	background: var(--light-gray);
+}
+.cards__wrapper {
+	padding: 80px 40px 100px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 60px;
+}
+	.pets__heading{
+		max-width: 400px;
+
+		color: var(--heading-gray);	
+	}
+	.pets__items{
+		display: flex;
+		flex-direction: row;
+		gap: 30px 40px;
+		flex-wrap: wrap;
+    	justify-content: space-around;
+	}
+		.pets__card{
+			background-color: var(--light);
+
+			height: 435px;
+
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 30px;
+
+			transition: all 0.3s ease;
+		}
+		.pets__card:hover{
+			background-color: var(--white);
+
+		}
+			.pets__button-card{
+				width: 187px;
+				height: 52px;
+
+				border: 2px solid var(--beige);
+				border-radius: 100px;
+
+				display: flex;
+
+				align-items: center;
+				justify-content: center;
+
+				transition: all 0.3s ease;
+			}
+			.pets__button-card:hover{
+				background: var(--active-beige);
+			}
+			.pets__button-card a{
+				color: var(--dark-gray)
+			}
+
+		.cards__button{
+			width: 261px;
+			height: 52px;
+
+			background: var(--beige);
+
+			border-radius: 100px;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.cards__button a{
+			color: var(--dark-gray);
+		}
+
+		.card__pagination{
+			display: flex;
+			gap:20px
+		}
+			.card__pagination-button {
+				height: 52px;
+				width: 52px;
+				border-radius: 100%;
+				background-repeat: no-repeat;
+				background-position: center center;
+
+				transition: all 0.3s ease;
+			}
+			.card__pagination-button:hover{
+				background: var(--active-beige);
+				color: var(--dark-gray);
+			}
+
+			.pagination__button-first, .pagination__button-back, .pagination__button-number {
+				color: var(--gray);
+				border: 2px solid var(--gray);
+			}
+			.pagination__button-next, .pagination__button-last{
+				color: var(--dark-gray);
+				border: 2px solid var(--beige);
+			}
+			.pagination__button-number{
+				background: var(--beige);
+				color: var(--dark-gray);
+			}
