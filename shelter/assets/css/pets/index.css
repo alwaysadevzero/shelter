@@ -1,9 +1,9 @@
-@import url(./assets/css/pets/header.css);
-@import url(./assets/css/pets/main.css);
-@import url(./assets/css/pets/footer.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(../footer.css);
 
-@import url(./assets/css/fonts.css);
-@import url(./assets/css/colors.css);
+@import url(../fonts.css);
+@import url(../colors.css);
  
 .page {
 	max-width: 1280px;
