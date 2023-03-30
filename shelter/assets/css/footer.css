@@ -1,8 +1,5 @@
-@import url(/assets/css/colors.css);
-
-
 .footer{
-	background: url(/assets/images/footer-gradient-background.png);
+	background: url(./assets/images/footer-gradient-background.png);
 }
 .footer__wrapper {
 	display: flex;
