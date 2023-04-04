@@ -1,0 +1,10 @@
+.help__wrapper{
+	padding: 42px 15px;
+}
+	.help__list{
+		column-gap: initial;
+		row-gap: 30px;
+	}
+		.help__item{
+			width: 130px;
+		}

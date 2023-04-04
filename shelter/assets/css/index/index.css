@@ -24,7 +24,8 @@
 @import url(./pets/pets220.css) screen and (max-width: 220px);
 
 @import url(./help/help.css);
-@import url(./pets/pets768.css) screen and (max-width: 1220px);
+@import url(./help/help768.css) screen and (max-width: 1220px);
+@import url(./help/help320.css) screen and (max-width: 650px);
 
 
 
