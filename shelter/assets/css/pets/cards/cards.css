@@ -3,7 +3,7 @@
 	background: var(--light-gray);
 }
 .cards__wrapper {
-	padding: 80px 40px 100px;
+	padding: 200px 40px 100px;
 
 	display: flex;
 	flex-direction: column;

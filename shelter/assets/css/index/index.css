@@ -33,7 +33,9 @@
 @import url(./donation/donation220.css) (max-width: 300px);
 
 @import url(../footer.css);
-
+@import url(../footer768.css) (max-width: 1100px);
+@import url(../footer320.css) (max-width: 500px);
+@import url(../footer220.css) (max-width: 220px);
 
 
 .wrapper {

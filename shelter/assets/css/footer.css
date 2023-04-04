@@ -6,35 +6,39 @@
 .footer__wrapper {
 	display: flex;
 	flex-direction: row;
-
-	gap:160px;
+	justify-content: space-between;
 
 	padding: 40px 40px 0;
 }
-	.footer__contcats-header, .footer__address-header{
-		margin-top: 15px;
+	.footer__contcats{	
+		display: flex;
+		flex-direction: column;
 
-		color: var(--white);
+		align-items: flex-start;
+		gap: 43px;
+		
+		width: 280px;
 	}
-		.footer__contcats{	
-			display: flex;
-			flex-direction: column;
-			gap: 43px;
-			width: 278px;
+		.footer__contcats-header, .footer__address-header{
+		margin-top: 15px;
+		color: var(--white);
 		}
-			.footer__contcats-header{
-					width: 280px;
-			}
-					.footer__email a, .footer__number a{
-						display: flex;
-						flex-direction: row;
-						gap: 20px;
-					}
+		.footer__email{
+			max-width: 251px;
+		}
+				.footer__email a, .footer__number a{
+					display: flex;
+					flex-direction: row;
+					gap: 20px;
+				}
 		.footer__address{
 			width: 302px;
 			display: flex;
 			flex-direction: column;
 			gap:34px;
+		}
+		.footer__address-header {
+			max-width: 270px;
 		}
 			.footer__address-list{
 				display: flex;
@@ -46,6 +50,13 @@
 					gap:20px
 				}
 
+
+
+
+	.footer__image-container{
+		display: flex;
+		justify-content: flex-end;
+	}
 
 .footer__text {
 	color: var(--beige);

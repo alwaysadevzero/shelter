@@ -1,0 +1,25 @@
+.cards__wrapper {
+	gap: 0;
+	padding: 200px 0 73px 0;
+
+}
+
+.pets__items {
+
+	gap: 30px 40px;
+	justify-content: initial;
+
+	margin: 30px auto 0;
+	max-width: 580px;
+}
+
+.pets__card:nth-child(7) {
+	display: none;
+}
+.pets__card:nth-child(8) {
+	display: none;
+}
+
+.card__pagination {
+	margin-top: 40px;
+}

@@ -1,12 +1,12 @@
-@import url(../index/header.css);
-
-
+@import url(../../index/header/header.css);
 .header{
 	background: var(--white);
 }
 
 .header__wrapper{
-	padding: 30px 40px 30px 40px;
+	padding: 30px 40px;
+	background: var(--white);
+	max-width: 1200px;
 }
 	.header__title {
 		color: var(--heading-gray);

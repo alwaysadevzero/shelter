@@ -1,0 +1,9 @@
+.footer__contcats-header {
+	flex-wrap: wrap;
+	width: 150px;
+}
+
+.footer__email a, .footer__number a{
+	flex-wrap: wrap;
+	display: flex;
+}

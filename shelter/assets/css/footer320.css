@@ -1,0 +1,28 @@
+.footer__wrapper{
+	gap: 40px;
+}
+	.footer__contcats{	
+		align-items: center;
+	}
+
+			.footer__number span {
+				position: relative;
+				top: 5px;
+			}
+
+	.footer__address {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+		.footer__address-list:last-child{
+		padding: 10px 0 0;
+	}
+
+	.footer__image-container{
+		padding: 0 30px;
+		width: 100%;
+	}
+		.footer__image-container img {
+			width: 100%;
+		}

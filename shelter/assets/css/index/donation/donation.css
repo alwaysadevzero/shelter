@@ -50,3 +50,8 @@
 		.donation__descritpion{
 			color: var(--transparent-gray);
 		}
+		.donation__image-container{
+			display: flex;
+			flex-direction: column;
+    		justify-content: space-around;
+		}
