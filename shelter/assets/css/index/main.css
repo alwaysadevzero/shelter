@@ -60,7 +60,7 @@
 	background-color: var(--white);
 }
 .about__wrapper{
-	margin: 80px 215px 100px;
+	padding: 80px 215px 100px;
 
 	display: flex;
 	flex-direction: row;
@@ -196,7 +196,7 @@
 	background-color: var(--white);
 }
 .help__wrapper{
-	margin: 80px 120px 100px;
+	padding: 80px 120px 100px;
 
 	text-align: center;
 

@@ -1,5 +1,7 @@
 .footer{
 	background: url(../images/index/start-screen-gradient-background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .footer__wrapper {
 	display: flex;
