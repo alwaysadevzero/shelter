@@ -25,3 +25,16 @@
 		display: flex;
    		justify-content: flex-end;
 	}
+
+
+.about__wrapper{
+	max-width: 437px;
+	margin: auto;
+
+	flex-direction: column-reverse;
+	align-items: center;
+	gap:80px;
+}
+	.about__content{
+		margin-top: 0;
+	}

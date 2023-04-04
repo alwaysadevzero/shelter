@@ -15,7 +15,7 @@
 
 
 .wrapper {
-	max-width: 768px;
+	max-width: 320px;
 	margin: 0 auto;
 }
 /* .page {
@@ -27,7 +27,7 @@ html {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 320px) {
 	html::-webkit-scrollbar {
 	width: 0;
 	height: 0;

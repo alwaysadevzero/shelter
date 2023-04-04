@@ -1,4 +1,4 @@
-.text-h1{
+.text-h1, .text-h2{
 font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
@@ -9,4 +9,12 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
+}
+
+.text-arial {
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 160%;
 }
