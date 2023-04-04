@@ -16,11 +16,10 @@
 		right: 75px;
 	}
 	.not-only__image{
-		margin-top: 100px;
 		width: 569px;
-		height: 593px;
 	}
 	.not-only__container{
+		margin-top: 98px;
 		width: 100%;
 		
 		display: flex;

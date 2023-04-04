@@ -15,37 +15,39 @@
 	margin: 0 auto;
 }
 
-.header__logo {
-	max-width: 186px;
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
-	margin-top: 5px;
-	cursor: pointer;
-}
-	.header__title {
-		color: var(--beige);
-	}
-	.header__subtitle{
-		color: var(--white);
-	}
-
-.header__navbar{
-	color: var(--gray);
-}
-	.navbar__list{
+	.header__logo {
+		max-width: 186px;
 		display: flex;
-		flex-direction: row;
-		gap: 35px;
+		flex-direction: column;
+		gap: 5px;
+		cursor: pointer;
 	}
-		.navbar__item{
-			transition: all 0.3s ease;
+		.header__title {
+			color: var(--beige);
 		}
-		.navbar__item.active{
-			color: var(--light);
-			border-bottom: 3px solid var(--beige);
+		.header__subtitle{
+			color: var(--white);
 		}
-		.navbar__item:hover:not(.active){
-			color: var(--light);
-			transform: scale(1.1);
+
+	.header__navbar{
+		color: var(--gray);
+	}
+		.navbar__list{
+			display: flex;
+			flex-direction: row;
+			gap: 35px;
 		}
+			.navbar__item{
+				transition: all 0.3s ease;
+			}
+			.navbar__item.active{
+				color: var(--light);
+				border-bottom: 3px solid var(--beige);
+			}
+			.navbar__item:hover:not(.active){
+				color: var(--light);
+				transform: scale(1.1);
+			}
+	.header__burger-menu{
+		display: none;
+	}

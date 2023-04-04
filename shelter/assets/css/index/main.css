@@ -50,21 +50,21 @@
 		.not-only__button:hover {
 			background: var(--active-beige);
 		}
-	.not-only__image{
-		overflow: hidden;
-	}
 	.not-only__container{
 		
 		display: flex;
    		justify-content: flex-end;
 	}
+		.not-only__image{
+			overflow: hidden;
+		}
 
 
 .about {
 	background-color: var(--white);
 }
 .about__wrapper{
-	padding: 80px 215px 100px;
+	padding: 80px 0 100px;
 
 	display: flex;
 	flex-direction: row;

@@ -1,19 +1,21 @@
 @import url(./header.css);
 @import url(./header768.css) screen and (max-width: 1280px);
-
+@import url(./header320.css) screen and (max-width: 768px);
 
 @import url(./main.css);
 @import url(./main768.css) screen and (max-width: 1000px);
-
+@import url(./main320.css) screen and (max-width: 500px);
+@import url(./main220.css) screen and (max-width: 220px);
 
 @import url(../footer.css);
 
 @import url(../fonts.css);
+@import url(../fonts320.css) screen and (max-width: 500px);
 @import url(../colors.css);
 
 
 .wrapper {
-	max-width: 1280px;
+	max-width: 768px;
 	margin: 0 auto;
 }
 /* .page {
@@ -22,4 +24,12 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+
+@media (max-width: 768px) {
+	html::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	}
 }

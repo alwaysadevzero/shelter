@@ -1,0 +1,22 @@
+.not-only__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 150px 10px 0;
+}
+	.not-only__content{
+		text-align: center;
+		gap: 40px;
+	}
+		.not-only__heading {
+			position: relative;
+			right: 0;
+			max-width: 250px;
+			overflow-wrap: break-word;
+		}
+	.not-only__container{
+		margin-top: 106px;
+	}
+		.not-only__image {
+			width: 260px;
+		}
