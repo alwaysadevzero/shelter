@@ -1,0 +1,9 @@
+.help__wrapper{
+	padding: 80px 69px 100px;
+
+	text-align: center;
+
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}

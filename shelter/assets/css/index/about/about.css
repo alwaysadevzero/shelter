@@ -1,0 +1,24 @@
+.about {
+	background-color: var(--white);
+}
+.about__wrapper{
+	padding: 80px 0 95px;
+	max-width: 850px;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+	.about__content{
+		margin-top: 14px;
+		max-width: 430px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+		.about__header{
+			max-width: 370px;
+			color: var(--heading-gray);
+		}

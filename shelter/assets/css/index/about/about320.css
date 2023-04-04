@@ -1,0 +1,19 @@
+.about__wrapper{
+	padding: 42px 25px 40.5px;
+	gap:42px
+}
+	.about__image-container{
+		width: 100%;
+		padding: 0 5px;
+	}
+		.about__image-container img{
+			width: 100%;
+		}
+	.about__content{
+		align-items: center;
+		text-align: justify;
+		gap: 22px;
+	}
+		.about__header{
+			max-width: 250px;
+		}

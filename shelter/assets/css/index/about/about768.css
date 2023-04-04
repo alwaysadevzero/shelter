@@ -1,0 +1,12 @@
+.about__wrapper{
+	max-width: 437px;
+	margin: auto;
+	padding: 80px 0 95px;
+
+	flex-direction: column-reverse;
+	align-items: center;
+	gap:80px;
+}
+	.about__content{
+		margin-top: 0;
+	}

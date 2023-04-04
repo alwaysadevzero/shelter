@@ -1,4 +1,4 @@
-.text-h1, .text-h2{
+.text-h1, .text-h2, .text-card{
 font-family: 'Georgia';
 font-style: normal;
 font-weight: 400;
@@ -17,4 +17,20 @@ letter-spacing: 0.06em;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 160%;
+}
+
+
+.pets__name.text-card{
+	/* pets-card-title */
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	/* identical to box height */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
 }

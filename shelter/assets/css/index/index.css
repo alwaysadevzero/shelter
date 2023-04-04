@@ -1,26 +1,44 @@
-@import url(./header.css);
-@import url(./header768.css) screen and (max-width: 1280px);
-@import url(./header320.css) screen and (max-width: 768px);
-
-@import url(./main.css);
-@import url(./main768.css) screen and (max-width: 1000px);
-@import url(./main320.css) screen and (max-width: 500px);
-@import url(./main220.css) screen and (max-width: 220px);
-
-@import url(../footer.css);
+@import url(../colors.css);
 
 @import url(../fonts.css);
 @import url(../fonts320.css) screen and (max-width: 500px);
-@import url(../colors.css);
+@import url(../fonts220.css) screen and (max-width: 220px);
+
+
+@import url(./header/header.css);
+@import url(./header/header768.css) screen and (max-width: 1280px);
+@import url(./header/header320.css) screen and (max-width: 767px);
+
+@import url(./not-only/not-only.css);
+@import url(./not-only/not-only768.css) screen and (max-width: 1000px);
+@import url(./not-only/not-only320.css) screen and (max-width: 500px);
+@import url(./not-only/not-only220.css) screen and (max-width: 220px);
+
+@import url(./about/about.css);
+@import url(./about/about768.css) screen and (max-width: 1000px);
+@import url(./about/about320.css) screen and (max-width: 500px);
+
+@import url(./pets/pets.css);
+@import url(./pets/pets768.css) screen and (max-width: 1220px);
+@import url(./pets/pets320.css) screen and (max-width: 750px);
+@import url(./pets/pets220.css) screen and (max-width: 220px);
+
+@import url(./help/help.css);
+@import url(./pets/pets768.css) screen and (max-width: 1220px);
+
+
+
+
+@import url(../footer.css);
+
+
+
 
 
 .wrapper {
-	max-width: 320px;
+	max-width: 1280px;
 	margin: 0 auto;
 }
-/* .page {
-	max-width: 768px;
-} */
 
 html {
   scroll-behavior: smooth;

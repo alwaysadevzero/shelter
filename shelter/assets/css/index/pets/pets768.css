@@ -1,0 +1,18 @@
+.pets__wrapper{
+	padding: 80px 30px 100px;
+}
+	.pets__card:last-child{
+		display: none;
+	}
+		.pets__items{
+			gap: 40px;
+		}
+			.pets__arrow{
+				top: 48%;
+			}
+			.arrow-left {
+			left: 30px;
+			}
+			.arrow-right {
+				right: 30px;
+			}

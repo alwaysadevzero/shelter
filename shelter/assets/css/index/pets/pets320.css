@@ -1,0 +1,42 @@
+.pets__wrapper{
+	padding: 42px 10px;
+	gap: initial;
+}
+	.pets__card{
+		display: none;
+	}
+	.pets__card:first-child{
+
+		margin-top: 42px;
+		display: flex;
+		gap:30px;
+	}
+		.pets__items{
+			gap: 40px;
+		}
+
+			.pets__arrow{
+				top: 48%;
+			}
+			.arrow-left {
+			left: 30px;
+			}
+			.arrow-right {
+				right: 30px;
+			}
+
+		.pets__pagination{
+			position: relative;
+			margin-top: 20px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			width: 185px;
+		}
+		.pets__arrow {
+			position:static;
+		}
+		.pets__button{
+			margin-top: 42px;
+		}
