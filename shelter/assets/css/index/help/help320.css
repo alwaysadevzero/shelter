@@ -1,10 +1,18 @@
 .help__wrapper{
 	padding: 42px 15px;
+	gap: 42px;
 }
 	.help__list{
 		column-gap: initial;
 		row-gap: 30px;
+		justify-content: space-between;
 	}
 		.help__item{
 			width: 130px;
+			height: 87px;
+			gap:20px;
+			justify-content: flex-end;
+		}
+		.help__item img{
+			width: 50px;
 		}

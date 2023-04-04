@@ -10,7 +10,6 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 }
-
 .text-arial {
 	font-family: 'Arial';
 	font-style: normal;
@@ -33,4 +32,27 @@ letter-spacing: 0.06em;
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+}
+
+.text-toys{
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 110%;
+/* identical to box height, or 17px */
+
+letter-spacing: 0.06em;
+}
+
+.text-dontation{
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 160%;
+	/* identical to box height, or 24px */
+
+	display: flex;
+	align-items: center;
 }

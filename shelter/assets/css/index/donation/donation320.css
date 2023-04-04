@@ -1,0 +1,25 @@
+.donation__wrapper{
+	padding: 42px 0;
+	align-items: center;
+	gap: 42px;
+}
+	.donation__content{
+		align-items: center;
+		gap: 20px;
+	}
+		.donation__text {
+			max-width: 273px;
+		}
+
+		.donation__card{
+			width: 281px;
+			height: 43px;
+		}
+		.donation__descritpion{
+			max-width: 280px;
+			text-align: justify;
+		}
+
+	.donation__image-container{
+		max-width:  260px;
+	}

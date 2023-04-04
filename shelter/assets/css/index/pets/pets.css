@@ -54,12 +54,16 @@
 
 				transition: all 0.3s ease;
 			}
+			.pets__card img{
+				width: 100%;
+			}
 			.pets__button-card:hover{
 				background-color: var(--active-beige);
 			}
 			.pets__button-card a{
 				color: var(--dark-gray)
 			}
+			
 		.pets__pagination{
 			position: absolute;
 			top: 0;

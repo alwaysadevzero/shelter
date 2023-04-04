@@ -1,38 +1,38 @@
 @import url(../colors.css);
 
 @import url(../fonts.css);
-@import url(../fonts320.css) screen and (max-width: 500px);
-@import url(../fonts220.css) screen and (max-width: 220px);
+@import url(../fonts320.css) (max-width: 500px);
+@import url(../fonts220.css) (max-width: 220px);
 
 
 @import url(./header/header.css);
-@import url(./header/header768.css) screen and (max-width: 1280px);
-@import url(./header/header320.css) screen and (max-width: 767px);
+@import url(./header/header768.css) (max-width: 1280px);
+@import url(./header/header320.css) (max-width: 767px);
 
 @import url(./not-only/not-only.css);
-@import url(./not-only/not-only768.css) screen and (max-width: 1000px);
-@import url(./not-only/not-only320.css) screen and (max-width: 500px);
-@import url(./not-only/not-only220.css) screen and (max-width: 220px);
+@import url(./not-only/not-only768.css) (max-width: 1000px);
+@import url(./not-only/not-only320.css) (max-width: 500px);
+@import url(./not-only/not-only220.css) (max-width: 220px);
 
 @import url(./about/about.css);
-@import url(./about/about768.css) screen and (max-width: 1000px);
-@import url(./about/about320.css) screen and (max-width: 500px);
+@import url(./about/about768.css) (max-width: 1000px);
+@import url(./about/about320.css) (max-width: 500px);
 
 @import url(./pets/pets.css);
-@import url(./pets/pets768.css) screen and (max-width: 1220px);
-@import url(./pets/pets320.css) screen and (max-width: 750px);
-@import url(./pets/pets220.css) screen and (max-width: 220px);
+@import url(./pets/pets768.css) (max-width: 1220px);
+@import url(./pets/pets320.css) (max-width: 750px);
+@import url(./pets/pets220.css) (max-width: 220px);
 
 @import url(./help/help.css);
-@import url(./help/help768.css) screen and (max-width: 1220px);
-@import url(./help/help320.css) screen and (max-width: 650px);
+@import url(./help/help768.css) (max-width: 1220px);
+@import url(./help/help320.css) (max-width: 650px);
 
-
-
+@import url(./donation/donation.css);
+@import url(./donation/donation768.css) (max-width: 1220px);
+@import url(./donation/donation320.css) (max-width: 560px);
+@import url(./donation/donation220.css) (max-width: 300px);
 
 @import url(../footer.css);
-
-
 
 
 

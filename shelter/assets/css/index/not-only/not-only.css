@@ -20,12 +20,7 @@
 		.not-only__heading{
 			max-width: 310px;
 
-			
 			color: var(--white);
-
-			font-size: 44px;
-			line-height: 130%;
-			font-weight: normal;
 		}
 		.not-only__subheading{
 			max-width: 460px;
