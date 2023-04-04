@@ -1,15 +1,24 @@
 @import url(./header.css);
+@import url(./header768.css) screen and (max-width: 1280px);
+
+
 @import url(./main.css);
+@import url(./main768.css) screen and (max-width: 1000px);
+
+
 @import url(../footer.css);
 
 @import url(../fonts.css);
 @import url(../colors.css);
 
- 
+
 .wrapper {
 	max-width: 1280px;
 	margin: 0 auto;
 }
+/* .page {
+	max-width: 768px;
+} */
 
 html {
   scroll-behavior: smooth;

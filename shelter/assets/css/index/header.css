@@ -1,6 +1,5 @@
 .header{
-	background: url(../../images/index/start-screen-gradient-background.png);
-    background-size: cover;
+	position: relative;
 }
 
 .header__wrapper{
@@ -8,8 +7,12 @@
 	flex-direction: row;
 	align-items: center;
     justify-content: space-between;
-	padding: 30px 40px 0 40px;
+	padding: 30px 40px 0;
 
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
 }
 
 .header__logo {
@@ -19,7 +22,6 @@
 	gap: 5px;
 	margin-top: 5px;
 	cursor: pointer;
-
 }
 	.header__title {
 		color: var(--beige);

@@ -1,0 +1,28 @@
+
+.not-only__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 150px 30px 0;
+}
+	.not-only__content{
+		margin: 0;
+		
+		align-items: center;
+	}
+	.not-only__heading {
+		position: relative;
+		right: 75px;
+	}
+	.not-only__image{
+		margin-top: 100px;
+		width: 569px;
+		height: 593px;
+	}
+	.not-only__container{
+		width: 100%;
+		
+		display: flex;
+   		justify-content: flex-end;
+	}
