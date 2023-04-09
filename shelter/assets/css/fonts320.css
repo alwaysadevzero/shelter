@@ -1,14 +1,14 @@
 .text-h1, .text-h2, .text-card{
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 130%;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 130%;
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
 }
 .text-arial {
 	font-family: 'Arial';
@@ -35,14 +35,14 @@ letter-spacing: 0.06em;
 }
 
 .text-toys{
-font-family: 'Georgia';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 110%;
-/* identical to box height, or 17px */
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 110%;
+	/* identical to box height, or 17px */
 
-letter-spacing: 0.06em;
+	letter-spacing: 0.06em;
 }
 
 .text-dontation{
