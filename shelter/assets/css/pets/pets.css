@@ -28,12 +28,12 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  PAGE-behavior: smooth;
 }
 
 
 @media (max-width: 320px) {
-	html::-webkit-scrollbar {
+	html::-webkit-PAGEbar {
 	width: 0;
 	height: 0;
 	}
