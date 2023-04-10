@@ -13,122 +13,141 @@
 
 <body class="page">
 	<header class="header">
-		<div class="header__wrapper wrapper">
-			<div class="header__logo">
-
-				<h1 class="header__title title"><a href="index.html">Cozy House</a></h1>
-				<p class="header__subtitle subtitle">Shelter for pets in Boston</p>
-			</div>
-			<nav class="header__navbar">
-				<ul class="navbar__list  text-arial">
-					<li class="navbar__item">
-						<a href="index.html" class="navbar__link">About the shelter</a>
+		<div class="header__burger-cover"></div>
+		<div class="header__burger-menu">
+			<nav class="header__burger-navbar">
+				<ul class="header__burger-list text-arial">
+					<li class="header__burger-item">
+						<a href="index.html" class="burger__link">About the shelter</a>
 					</li>
-					<li class="navbar__item active">
-						<a href="#about" class="navbar__link">Our pets</a>
+					<li class="header__burger-item active">
+						<a href="" class="burger__link">Our pets</a>
 					</li>
-					<li class="navbar__item">
-						<a href="index.html#help" class="navbar__link">Help the shelter</a>
+					<li class="header__burger-item">
+						<a href="index.html#help" class="burger__link">Help the shelter</a>
 					</li>
-					<li class="navbar__item">
-						<a href="#contacts" class="navbar__link">Contacts</a>
+					<li class="header__burger-item">
+						<a href="#contacts" class="burger__link">Contacts</a>
 					</li>
 				</ul>
 			</nav>
-			<div class="header__burger-menu">
-				<span></span>
-				<span></span>
-				<span></span>
+		</div>
+		<div class="header__burger-icon">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="wrapper">
+			<div class="header__wrapper">
+				<div class="header__logo">
+					<p class="header__title title"><a href="index.html">Cozy House</a></p>
+					<p class="header__subtitle subtitle">Shelter for pets in Boston</p>
+				</div>
+				<nav class="header__navbar">
+					<ul class="navbar__list text-arial">
+						<li class="navbar__item">
+							<a href="index.html" class="navbar__link">About the shelter</a>
+						</li>
+						<li class="navbar__item active">
+							<a href="" class="navbar__link">Our pets</a>
+						</li>
+						<li class="navbar__item">
+							<a href="index.html#help" class="navbar__link">Help the shelter</a>
+						</li>
+						<li class="navbar__item">
+							<a href="#contacts" class="navbar__link">Contacts</a>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 	</header>
-	<main>
-		<section class="cards" id="cards">
-			<div class="cards__wrapper wrapper">
-				<h2 class="pets__heading text-h2 text-center">
-					Our friends who
-					<br>
-					are looking for a house
-				</h2>
-				<div class="cards__container">
-					<ul class="pets__items">
-						<li class="pets__card">
-							<img src="./assets/images/pets/katrine.png" alt="cat">
-							<span class="pets__name text-card">Katrine</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/jennifer.png" alt="puppy">
-							<span class="pets__name text-card">Jennifer</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/woody.png" alt="dog">
-							<span class="pets__name text-card">Woody</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/sophia.png" alt="puppy">
-							<span class="pets__name text-card">Sophia</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/timmy.png" alt="puss">
-							<span class="pets__name text-card">Timmy</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/charly.png" alt="dog">
-							<span class="pets__name text-card">Charly</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/scarlet.png" alt="puppy">
-							<span class="pets__name text-card">Scarlet</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-						<li class="pets__card">
-							<img src="./assets/images/pets/freddie.png" alt="kitten">
-							<span class="pets__name text-card">Freddie</span>
-							<div class="pets__button-card text-georgia_button">
-								<a href="" class="text-georgia_button">Learn more</a>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="card__pagination">
-					<button class="card__pagination-button pagination__button-first text-toys">
-						&lt;&lt;
-					</button>
-					<button class="card__pagination-button pagination__button-back text-toys">
-						&lt;
-					</button>
-					<button class="card__pagination-button pagination__button-number text-toys">
-						1
-					</button>
-					<button class="card__pagination-button pagination__button-next text-toys">
-						&gt;
-					</button>
-					<button class="card__pagination-button pagination__button-last text-toys">
-						&gt;&gt;
-					</button>
-				</div>
+	<section class="cards" id="cards">
+		<div class="cards__wrapper wrapper">
+			<h2 class="pets__heading text-h2 text-center">
+				Our friends who
+				<br>
+				are looking for a house
+			</h2>
+			<div class="cards__container">
+				<ul class="pets__items">
+					<li class="pets__card">
+						<img src="./assets/images/pets/katrine.png" alt="cat">
+						<span class="pets__name text-card">Katrine</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/jennifer.png" alt="puppy">
+						<span class="pets__name text-card">Jennifer</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/woody.png" alt="dog">
+						<span class="pets__name text-card">Woody</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/sophia.png" alt="puppy">
+						<span class="pets__name text-card">Sophia</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/timmy.png" alt="puss">
+						<span class="pets__name text-card">Timmy</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/charly.png" alt="dog">
+						<span class="pets__name text-card">Charly</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/scarlet.png" alt="puppy">
+						<span class="pets__name text-card">Scarlet</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+					<li class="pets__card">
+						<img src="./assets/images/pets/freddie.png" alt="kitten">
+						<span class="pets__name text-card">Freddie</span>
+						<div class="pets__button-card text-georgia_button">
+							<a href="" class="text-georgia_button">Learn more</a>
+						</div>
+					</li>
+				</ul>
 			</div>
-		</section>
+			<div class="card__pagination">
+				<button class="card__pagination-button pagination__button-first text-toys">
+					&lt;&lt;
+				</button>
+				<button class="card__pagination-button pagination__button-back text-toys">
+					&lt;
+				</button>
+				<button class="card__pagination-button pagination__button-number text-toys">
+					1
+				</button>
+				<button class="card__pagination-button pagination__button-next text-toys">
+					&gt;
+				</button>
+				<button class="card__pagination-button pagination__button-last text-toys">
+					&gt;&gt;
+				</button>
+			</div>
+		</div>
+	</section>
 	</main>
 	<footer class="footer" id="contacts">
 		<div class="wrapper">
@@ -181,6 +200,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./assets/js/burger.js"></script>
 </body>
 
 </html>

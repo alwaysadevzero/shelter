@@ -8,16 +8,16 @@
 	display: none;
 }
 
-.header__burger-menu {
+.header__burger-icon {
 	display: flex;
 	flex-direction: column;
 	gap: 8px;
 }
-.header__burger-menu span {
+.header__burger-icon span {
     display: block;
 
 	width: 30px;
 	height: 0px;
 
-    border: 2px solid var(--beige);;
+    border: 1px solid var(--beige);;
 }

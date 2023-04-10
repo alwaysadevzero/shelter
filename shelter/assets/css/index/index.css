@@ -4,6 +4,7 @@
 @import url(../fonts320.css) (max-width: 500px);
 @import url(../fonts220.css) (max-width: 220px);
 
+@import url(../burger.css);
 
 @import url(./header/header.css);
 @import url(./header/header768.css) (max-width: 1280px);
