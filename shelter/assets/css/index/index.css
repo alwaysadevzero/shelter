@@ -45,9 +45,8 @@
 }
 
 html {
-  PAGE-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 @media (max-width: 320px) {
 	html::-webkit-PAGEbar {
@@ -55,3 +54,5 @@ html {
 	height: 0;
 	}
 }
+
+

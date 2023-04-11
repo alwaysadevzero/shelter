@@ -1,18 +1,32 @@
 .pets__wrapper{
-	padding: 80px 30px 100px;
+	padding: 80px 0 100px;
 }
-	.pets__card:last-child{
+	.pets__slider{
+		max-width: 580px;
+		gap: 60px;
+	}
+
+	.pets__items {
+		gap: 30px;
+	}
+	.pets__card:last-child {
 		display: none;
 	}
-		.pets__items{
-			gap: 40px;
+		.pets__arrow{
+			top: 48%;
 		}
-			.pets__arrow{
-				top: 48%;
-			}
-			.arrow-left {
-			left: 30px;
-			}
-			.arrow-right {
-				right: 30px;
-			}
+		.arrow-left {
+		left: 30px;
+		}
+		.arrow-right {
+			right: 30px;
+		}
+
+@keyframes move-right {
+	from {left: 0px;}
+	to {left: -768px;}
+}
+@keyframes move-left {
+	from {left: 0px;}
+	to {left: 768px;}
+}

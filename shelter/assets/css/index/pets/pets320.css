@@ -1,7 +1,15 @@
 .pets__wrapper{
-	padding: 42px 10px;
+	padding: 42px ;
 	gap: initial;
 }
+	.pets__heading{
+		width: 400px;
+		justify-content: space-around;
+	}
+	.pets__slider{
+		max-width: 300px;
+		gap: 0;
+	}
 	.pets__card{
 		display: none;
 	}
@@ -40,3 +48,12 @@
 		.pets__button{
 			margin-top: 42px;
 		}
+
+@keyframes move-right {
+	from {left: 0px;}
+	to {left: -470px;}
+}
+@keyframes move-left {
+	from {left: 0px;}
+	to {left: 470px;}
+}

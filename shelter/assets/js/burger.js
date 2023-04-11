@@ -14,5 +14,5 @@ function burgerToggler() {
     BURGER_COVER.classList.toggle("active");
     BURGER_MENU.classList.toggle("active");
 	BURGER_MENU_BUTTON.classList.toggle("active");
-	PAGE.classList.toggle("PAGE-disable");
+	PAGE.classList.toggle("page-disable");
 }
