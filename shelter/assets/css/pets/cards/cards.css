@@ -88,18 +88,17 @@
 
 				transition: all 0.3s ease;
 			}
-			.card__pagination-button:hover{
+			.card__pagination-button:not(:disabled):hover {
 				background: var(--active-beige);
-				color: var(--dark-gray);
 			}
 
-			.pagination__button-first, .pagination__button-back, .pagination__button-number {
-				color: var(--gray);
-				border: 2px solid var(--gray);
-			}
-			.pagination__button-next, .pagination__button-last{
+			.card__pagination-button {
 				color: var(--dark-gray);
 				border: 2px solid var(--beige);
+			}
+			.card__pagination-button:disabled{
+				color: var(--gray);
+				border: 2px solid var(--gray);
 			}
 			.pagination__button-number{
 				background: var(--beige);

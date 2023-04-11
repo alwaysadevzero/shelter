@@ -5,7 +5,7 @@ const ARROW_RIGHT = document.querySelector('.arrow-right');
 const CARDS_NUMBER = 3
 
 
-window.onload = (event) => {
+window.onload = () => {
   getCardObj().then((data) => {main(data)})
 };
 
@@ -33,14 +33,14 @@ function getCards(cardsArr, idName) {
 	return Cards
 }
 
-function arrowLeftListener(cardsContainer) {
+function arrowLeftListener() {
 	ARROW_LEFT.addEventListener('click', () => {
 		SLIDER.classList.add('transition-left')
 		ARROW_LEFT.removeEventListener("click", arrowLeftListener);
 		ARROW_RIGHT.removeEventListener("click", arrowRightListener);
 	})
 }
-function arrowRightListener(cardsContainer) {
+function arrowRightListener() {
 	ARROW_RIGHT.addEventListener('click', () => {
 		SLIDER.classList.add('transition-right')
 		ARROW_LEFT.removeEventListener("click", arrowLeftListener);

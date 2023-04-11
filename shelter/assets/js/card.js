@@ -19,7 +19,6 @@ function createPetCard(imageSrc, altText, petName) {
 	span.className = 'pets__name text-card';
 	span.textContent = petName;
 	div.className = 'pets__button-card';
-	a.href = '';
 	a.className = 'text-georgia_button';
 	a.textContent = 'Learn more';
 
