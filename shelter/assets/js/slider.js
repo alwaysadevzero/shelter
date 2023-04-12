@@ -75,7 +75,7 @@ function main(dataArr) {
 
   if (animationEvent.animationName === "move-left") {
 
-	[beforeCardsArr, activeCardsArr, afterCardsArr] = [dataRandomizer(dataArr, activeCardsArr), beforeCardsArr, activeCardsArr]
+	[beforeCardsArr, activeCardsArr, afterCardsArr] = [dataRandomizer(dataArr, beforeCardsArr), beforeCardsArr, activeCardsArr]
 
 	while (SLIDER.firstChild) SLIDER.removeChild(SLIDER.firstChild);
 
@@ -86,7 +86,7 @@ function main(dataArr) {
     SLIDER.classList.remove("transition-left");
   } else {
 	
-	[beforeCardsArr, activeCardsArr, afterCardsArr] = [activeCardsArr, afterCardsArr, dataRandomizer(dataArr, activeCardsArr)]
+	[beforeCardsArr, activeCardsArr, afterCardsArr] = [activeCardsArr, afterCardsArr, dataRandomizer(dataArr, afterCardsArr)]
 
 	while (SLIDER.firstChild) SLIDER.removeChild(SLIDER.firstChild);
 
