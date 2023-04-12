@@ -49,7 +49,7 @@ function drawPage(pageArr) {
 
 	let fragment = new DocumentFragment();
 
-	pageArr.forEach(card => fragment.append(createPetCard(card.img, card.type, card.name)))
+	pageArr.forEach(card => fragment.append(createPetCard(card)))
 
 	return fragment;
 }

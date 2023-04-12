@@ -1,0 +1,29 @@
+.popup__container{
+	width: 630px;
+	height: 350px;
+
+	gap: 11px;
+}
+.popup__image{
+	height: 350px;
+	border-radius: 9px ;
+}
+
+.popup__content{
+	margin-top: 10px;
+	gap: 20px;
+}
+
+.text-dontation{
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 110%;
+}
+
+.popup__list{
+	top: 0;
+	left: 5px;
+	gap: 9px;
+}

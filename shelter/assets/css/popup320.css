@@ -1,0 +1,21 @@
+.popup__image{
+	display: none;
+}
+.popup__container {
+	width: 240px;
+	padding: 10px;
+	height: auto;
+}
+.popup__content{
+	max-width: 220px;
+	text-align: center;
+    margin-top: 0;
+}
+
+.popup__header {
+	justify-content: center;
+}
+
+.popup__item{
+	text-align: start;
+}

@@ -6,7 +6,8 @@ async function getCardObj() {
 }
 
 
-function createPetCard(imageSrc, altText, petName) {
+function createPetCard(card) {
+
 	const parentDiv = document.createElement('div');
 	const img = document.createElement('img');
 	const span = document.createElement('span');
@@ -14,14 +15,14 @@ function createPetCard(imageSrc, altText, petName) {
 	const a = document.createElement('a');
 
 	parentDiv.className = 'pets__card';
-	img.src = imageSrc;
-	img.alt = altText;
+	img.src = card.img;
+	img.alt = card.type;
 	span.className = 'pets__name text-card';
-	span.textContent = petName;
+	span.textContent = card.name;
 	div.className = 'pets__button-card';
 	a.className = 'text-georgia_button';
 	a.textContent = 'Learn more';
-
+	div.addEventListener("click", (event) => {updatePopup(card); popupToggler() })
 	parentDiv.appendChild(img);
 	parentDiv.appendChild(span);
 	parentDiv.appendChild(div);
@@ -29,7 +30,3 @@ function createPetCard(imageSrc, altText, petName) {
 
 	return parentDiv;
 }
-
-
-
-

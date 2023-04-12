@@ -10,15 +10,15 @@ window.onload = () => {
 };
 
 
-function createCardsGroup(data) {;
-	const div = document.createElement('div');
+function createCardsGroup(dataArr) {
+  const div = document.createElement("div");
 
-	for (let i=0; i < data.length; i++){
-		div.appendChild(createPetCard(data[i].img, data[i].type, data[i].name))
-	}
+  for (let i = 0; i < dataArr.length; i++) {
+    div.appendChild(createPetCard(dataArr[i], i, dataArr));
+  }
 
-	div.classList.add('pets__items')
-	return div
+  div.classList.add("pets__items");
+  return div;
 }
 
 function dataRandomizer(data, avoidData = [], length = CARDS_NUMBER) {
@@ -74,28 +74,25 @@ function main(dataArr) {
   
 
   if (animationEvent.animationName === "move-left") {
-	afterCardsContainer.innerHTML = activeCardsContainer.innerHTML
-	afterCardsArr = activeCardsArr
 
+	[beforeCardsArr, activeCardsArr, afterCardsArr] = [dataRandomizer(dataArr, activeCardsArr), beforeCardsArr, activeCardsArr]
 
-	activeCardsContainer.innerHTML = beforeCardsContainer.innerHTML
-	activeCardsArr = beforeCardsArr
-	beforeCardsArr = dataRandomizer(dataArr, activeCardsArr)
-	beforeCardsContainer.innerHTML = getCards(beforeCardsArr, "before").innerHTML  
+	while (SLIDER.firstChild) SLIDER.removeChild(SLIDER.firstChild);
 
+	SLIDER.appendChild(getCards(beforeCardsArr, "before")) 
+	SLIDER.appendChild(getCards(activeCardsArr, "active")) 
+	SLIDER.appendChild(getCards(afterCardsArr, "after")) 
 
     SLIDER.classList.remove("transition-left");
   } else {
-
-	beforeCardsContainer.innerHTML = activeCardsContainer.innerHTML
-	beforeCardsArr = activeCardsArr
 	
+	[beforeCardsArr, activeCardsArr, afterCardsArr] = [activeCardsArr, afterCardsArr, dataRandomizer(dataArr, activeCardsArr)]
 
-	activeCardsContainer.innerHTML = afterCardsContainer.innerHTML
-	activeCardsArr = afterCardsArr
-	afterCardsArr = dataRandomizer(dataArr, activeCardsArr)
-	afterCardsContainer.innerHTML = getCards(afterCardsArr, "before").innerHTML  
+	while (SLIDER.firstChild) SLIDER.removeChild(SLIDER.firstChild);
 
+	SLIDER.appendChild(getCards(beforeCardsArr, "before")) 
+	SLIDER.appendChild(getCards(activeCardsArr, "active")) 
+	SLIDER.appendChild(getCards(afterCardsArr, "after")) 
 
     SLIDER.classList.remove("transition-right");
   }

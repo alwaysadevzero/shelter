@@ -5,6 +5,9 @@
 @import url(../fonts220.css) (max-width: 220px);
 
 @import url(../burger.css);
+@import url(../popup.css);
+@import url(../popup768.css)  (max-width: 1000px);
+@import url(../popup320.css) (max-width: 750px);
 
 @import url(./header/header.css);
 @import url(./header/header768.css) (max-width: 1280px);
