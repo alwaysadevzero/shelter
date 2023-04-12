@@ -11,14 +11,14 @@ window.onload = () => {
 
 
 function createCardsGroup(dataArr) {
-  const div = document.createElement("div");
+  const div = document.createElement("ul");
 
   for (let i = 0; i < dataArr.length; i++) {
     div.appendChild(createPetCard(dataArr[i], i, dataArr));
   }
 
-  div.classList.add("pets__items");
-  return div;
+  ul.classList.add("pets__items");
+  return ul;
 }
 
 function dataRandomizer(data, avoidData = [], length = CARDS_NUMBER) {
